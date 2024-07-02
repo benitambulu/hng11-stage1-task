@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Portfolio Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to the Alata Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- This is the header section and it also contains the navbar, Name, little paragraph and image -->
+    <header>
+        <h1>Benita, <br> Software Engineer</h1>
+        <image src="./slack-profile-picture.JPG" data-testid="slackProfilePicture" alt="header-img" id="header-img" />
+
+    </header>
+
+
+    <!-- This is the about section and it shows more details about the person -->
+    <section id="about">
+        <h2>Meet Benita Mbulu,</h2>
+        <p>A software engineer with a passion for creating <br>
+            user-centered products</p>
+
+        <div id="about-me">
+
+            <div id="about-me-contents">
+                <h1>About Me</h1>
+                <p>As a software engineer, Benita Mbulu specializes in frontend development and design.
+                    She excels in crafting clean, efficient code and pays meticulous attention to detail
+                    to create user-friendly and visually appealing interfaces. Benita is dedicated to continuous
+                    learning and stays updated with the latest industry trends
+                    to deliver high-quality solutions in her projects.
+                </p>
+            </div>
+            <div id="about-me-contents">
+                <h1>My Goals</h1>
+                <p>In the next two years, I aim to master advanced frontend and backend technologies,
+                    contribute to open source projects, enhance my DevOps skills,
+                    improve communication and leadership abilities, stay updated with industry trends,
+                    and build a diverse portfolio to become a well-rounded and adaptable software engineer.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- This is the internship section -->
+
+    <section id="intenship-details">
+        <h2>Currently interning at HNG</h2>
+        <h3>Internship details</h3>
+        <p data-testid="slackDisplayName">MBO</p>
+        <p data-testid="slackEmail">beniottabenita@gmail.com</p>
+        <a href=""></a>
+
+        <div class="sectionTwo">
+            <h2 class="dayOfTheWeek" data-testid="currentDay" id="dayOfTheWeek"></h2>
+            <h2 class="time" data-testid="currentTimeUTC" id="time"></h2>
+            <div class="links">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- This is the footer section that shows the contact informations -->
+    <footer id="footer">
+        <h4>©2024</h4>
+        <ul>
+            <li><a href="http://hng.tech/learn" data-testid="hngLink">Hng Tech</a> </li>
+            <li><a href="http://keyword.dog/" data-testid="keywordLink">Keyword.Dog</a></li>
+            <li><a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">Scrapeanyweb</a></li>
+            <li><a href="http://x.com/benitambulu_" target="_blank">X</a></li>
+            <li><a href="https://www.linkedin.com/in/benita-mbulu-aba074169" target="_blank">Linkedin</a></li>
+
+        </ul>
+    </footer>
+</body>
+<script src="main.js" defer></script>
+<script>
+
+</script>
+
+</html>

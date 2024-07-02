@@ -1,0 +1,270 @@
+/* This is section is for styling the body section*/
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-family: "Alata", sans-serif;
+    font-weight: 100;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* This is section is for styling the header section */
+header h1 {
+    text-align: center;
+    color: 121212;
+    line-height: 70px;
+    font-weight: 200;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+#header-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* This is section is for styling the about section */
+#about h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 600;
+    color: #303030;
+
+}
+
+#about p {
+    text-align: center;
+    color: #57606F;
+
+}
+
+#about-me {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+
+#about-me-contents {
+    width: 440px;
+    height: 300px;
+    border-radius: 16px;
+    border: 1px solid #D7D7D7;
+    margin: 64px 20px 64px 10px;
+    padding: 32px 43px 64px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+
+}
+
+#about-me-contents h1 {
+    text-align: justify;
+    color: #303030;
+}
+
+#about-me-contents p {
+    text-align: justify;
+    line-height: 150%;
+    color: #303030;
+}
+
+
+.text-buttons {
+    border-radius: 257px;
+    border: 1px solid #D7D7D7;
+    background: #F9F9F9;
+    width: 100px;
+    height: 30px;
+    display: inline-flex;
+    padding: 4px 14px;
+    align-items: flex-start;
+    gap: 8px;
+    justify-content: center;
+
+}
+
+.text-buttons p {
+    color: #57606F;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+
+#intenship-details{
+    width: 400px;
+    height: 300px;
+    border-radius: 16px;
+    border: 1px solid #D7D7D7;
+    margin: auto;
+    padding: 32px 43px 64px 32px;
+    text-align: center;
+}
+
+
+/* This is section is for styling the footer section */
+
+#footer {
+    display: flex;
+    flex: 2;
+    margin-top: 120px;
+    padding: 10px;
+}
+
+#footer h4 {
+    padding-left: 60px;
+    color: #303030;
+}
+
+#footer ul {
+    list-style: none;
+    display: flex;
+    margin: auto 0 auto 300px;
+    padding-left: 220px;
+
+}
+
+#footer ul li {
+    padding: 0 30px;
+
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #57606F;
+}
+
+
+
+/* Resposiveness  for mobile screen*/
+
+@media screen and (max-width: 768px) {
+    /* mobile devices */
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        min-width: 320px;
+        max-width: 480px;
+    }
+
+    header h1 {
+        text-align: center;
+        color: 121212;
+        line-height: 60px;
+        font-weight: 100;
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+
+    #about h2 {
+        text-align: center;
+        margin-top: 120px;
+        font-weight: 600;
+        color: #303030;
+    }
+
+    #about-me {
+        display: flex;
+        flex: 1;
+        order: 2;
+        flex-wrap: wrap;
+    }
+
+    #about-me-contents {
+        width: 60%;
+        height: 300px;
+        border-radius: 16px;
+        border: 1px solid #D7D7D7;
+        margin: auto;
+        padding: 30px 43px 64px 32px;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 16px;
+        flex-shrink: 0;
+    }
+
+    #internship-details{
+        max-width: 160%;
+        height: 300px;
+        border-radius: 16px;
+        border: 1px solid #D7D7D7;
+        margin: 64px 20px 40px 0;
+        padding: 30px 43px 64px 32px;
+        text-align: left;
+    }
+
+    #internship-details h2{
+        font-size: 40px;
+    }
+    #internship-details {
+        font-size: 20px;
+    }
+
+
+    .text-buttons {
+        border-radius: 257px;
+        border: 1px solid #D7D7D7;
+        background-color: #F9F9F9;
+        width: 54px;
+        height: 28px;
+        display: inline-flex;
+        padding: 4px 16px;
+        align-items: flex-start;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .text-buttons p {
+        color: #57606F;
+        font-size: 8px;
+        margin: 8px 0;
+        text-align: center;
+    }
+
+    #about-me-contents h1,
+    #my-skill-contents h1 {
+        text-align: justify;
+        color: #303030;
+        font-size: larger;
+    }
+
+  
+
+    #footer {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        margin: 80px 0 40px 0;
+        flex-direction: column; /* If you want the h4 and ul to stack vertically */
+    }
+    
+    #footer h4 {
+        margin-bottom: 20px; /* Add some space between h4 and ul */
+        color: #303030;
+        padding: 0;
+    }
+    
+    #footer ul {
+        padding-left: 0;
+        margin: 0;
+        width: 100%; /* Or set a specific width if needed */
+        display: flex;
+        justify-content: center; /* Center the list items horizontally */
+    }
+    
+    #footer ul li {
+        padding: 0 8px;
+    }
+}
+
+
+
